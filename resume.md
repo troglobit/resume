@@ -1,100 +1,128 @@
-Johnny Coder
-============
+Joachim Nilsson
+===============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+> UNIX developer with a burning passion for style, down to the last bit.
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+1999-2000
+:   **MSc, Real-Time Systems, Computer Engineering**;  University
+    of Mälardalen (Västerås)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Thesis title: Modular Scheduling in RTLinux*, supervisors:
+    Prof. Gerhard Fohler and Mikael Bergqvist, Frontec AB
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+1995-1999
+:   **BSc, Computer Engineering**; University of Mälardalen (Västerås)
 
-    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**2005--Present:**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Software Architect, Westermo R&D.  Engineered and designed the WeOS
+network operating system.
 
-* First item
+**2002-2005:**
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Consultant, embedded and Linux systems ÅF-System AB, Vasterås
 
-**That Other Job You Had**
+*2004: ABB Force Measurement — Network Security Analysis.*  Security
+analysis and firewall recommendations for connecting a time critical
+industrial network to an office network with Internet access.  The
+Stressometer flatness measuring system is an advanced flatness system for
+rolling mills with high demands on network load predictability and quality of
+service.
 
-Also with a short description.
+*2002–2005: EssNet AB — Linux USB2 driver development.* Development
+of several Linux kernel device drivers for a highly advanced lottery
+system.  In particular a Cypress FX2 (USB 2.0) based high–speed scanner
+with functions for scanning and calibration, branding of printed receipts,
+cashdrawer and dedicated serial port interface. First devleoped for Linux
+kernel 2.4 and later ported to Linux 2.6.
+
+Also responsible for continous maintenance of drivers and Linux system
+software, at EssNet.
+
+**2000-2002:**
+
+2000–2002 R&D Engineer, RealFast Operating Systems AB, Västerås.
+
+*2002: Mentor Graphics Inc. — Development project in Linux.*  A six month
+project for Mentor Graphics to port Linux to the RealFast HW microkernel,
+similar to the VxWorks project (below). Testbench (a S/W simulator of
+the microkernel), complete system including drivers redesign of the
+scheduler etc., all developed using GNU/Linux.
+
+Debugging of the ARM Integrator platform with the Arm AxD debugger using
+a MultiICE JTAG probe.
+
+*2001: Mäalardalen University, Västerås.*  Lecturer and examiner for a
+course in C programming at the Department of Computer Engineering, IDt.
+See the course page for details: http://www.idt.mdh.se/kurser/cd5020/jnnht01/
+
+*2001: Sierra S16.*  Project lead and SW developer for the Sierra real-time
+kernel. A minimalistic OS based on the RealFast HW microkernel wrapped with
+a SW API to the hardware coupled with an adaptation of NewLib to provide a
+limited C library.
+
+Used today in courses given at Mälardalen University.
+
+*2001: Ericsson Radio Systems AB, Nacka Strand.*  Investigation and
+demostration of how Linux and RTLinux can replace Enea OSE in Ericsson
+switches based on the GPB2, General Purpose Board 2.
+
+*2001: Applied Linux & Embedded Internet Show, Kista.*  Presented, on 5th
+April, Linux and other free kernels for embedded and real-time systems. A
+rundown of the embedded OS’s eCos and uClinux as well as the real-time OS’s
+RTLinux and RTAI. Disscussed how each could be applied to a certain set of
+problems and what to whatch out for when choosing a free operating system.
+
+*2000: Ericsson Mobile Data Design AB, Gothenburg.*  A ten month project
+with extensive modifications of VxWorks and its microkernel Wind to support
+the HW microkernel developed by RealFast. The latter is implemented in
+VHDL prototyped on a PMC card with an FPGA.
+
+The goal of the project was to compare the performance of VxWorks with and
+without the hardware acceleration. This was done with a simple IP forward-
+ing application running in VxWorks on the Ericsson GIC (General Interface
+Carrier) board.
+
+The project included debugging of IBM PowerPC 750 using IBM RISCWatch
+with a JTAG probe. Including debugging of PCI drivers with SingleStep and
+the Vmetro PMC bus analyzer.
+
+Tests and performance measurements made for the evaluation of the project
+was, amongst other tools, carried out with an advanced IP packet generator.
+The project also included modification and auditing of Ericsson developed
+drivers and base platform in VxWorks.
+
+*2000–2002: RealFast (internal work).* Network and systems administration
+of Linux, OpenBSD and Solaris machines.
+
+Ported VxWorks to the Real-Time Unit, RTU, a real-time kernel implemented
+in VHDL. All kernel primitives in VxWorks was adapted to use the HW micro
+kernel.
+
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+uftpd
+:   Created my own FTP/TFTP server, because all others were
+    completely useless.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+    * Basic anonymous FTP support
+    * TFTP with block-size negotiation
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <troglobit@gmail.com> • +46 (0)70 42 42 872 • 40 years old\
+> Grottvägen 1 - 724 63 VÄSTERÅS, Sweden
