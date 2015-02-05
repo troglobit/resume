@@ -1,0 +1,344 @@
+\documentclass[a4paper]{article}
+\usepackage{tabularx}
+
+%\usepackage{doublespace}
+%\setstretch{1.2}
+
+\usepackage{ae}
+\usepackage{a4wide}
+\usepackage[T1]{fontenc}
+\usepackage{curriculum_vitae}
+\usepackage{hyperref}
+%\usepackage{garamon}
+\usepackage{rcs}
+
+\RCS $Id$
+\RCS $Date$
+\RCS $Revision$
+
+% http://linuxgazette.net/issue20/latex.html
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{rcsfooters}{%
+\fancyhf{}
+\fancyhead{} % get rid of headers
+\renewcommand{\headrulewidth}{0pt} % and the top line
+\fancyfoot[L]{}
+\fancyhead[C]{}
+\fancyfoot[R]{Revision: \RCSRevision}}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+\Huge{\textsc{Curriculum Vit\ae}}
+\vspace{\baselineskip}
+
+\Large{\textsc{Joachim Nilsson}}
+\end{center}
+\vspace{1.5\baselineskip}
+
+\section{Personal Data}
+\begin{personals}
+  \info{Name:}
+        {Lars \underline{Joachim} Nilsson}
+  \info{Born:}
+        {July 23rd, 1974, Nacka, Stockholm}
+  \info{Address:}
+        {\begin{minipage}[t]{8cm}
+        Morkullegatan~38      \\
+        S-724~69~VÄSTERÅS     \\
+        SWEDEN
+        \end{minipage}}
+  \info{Tel:}
+        {+46(0)21~--~12~33~48}
+  \info{Civil status:}
+        {Married, two kids}
+  \info{Email:}
+        {\url{joachim.nilsson@vmlinux.org}}
+  \info{Web:}
+        {\url{http://vmlinux.org/joachim/}}
+  \info{Language skills:}
+        {Fluent in English \& Swedish, with some limited understanding of French}
+\end{personals}
+
+
+\section{Work Experience}
+\begin{CV}
+  \row{2002--Present}
+      {\textbf{Consultant, embedded and Linux systems, ÅF-System AB, Västerås} \\
+\emph{2005: Tutor ....}
+\emph{2004: ABB Force Measurement --- Network Security Analysis.}
+Security analysis and firewall recommendations for connecting a time
+critical industrial network to an office network with Internet access.
+
+The Stressometer flatness measuring system is an advanced flatness
+system for rolling mills with high demands on network load
+predictability and quality of service.
+
+\emph{2002--Now: EssNet AB --- Linux USB2 driver development.}
+Development of several Linux kernel device drivers for a highly
+advanced lottery system.  In particular a Cypress FX2 (USB 2.0) based
+high--speed scanner with functions for scanning and calibration,
+branding of printed receipts, cashdrawer and dedicated serial port
+interface.  First devleoped for Linux kernel 2.4 and later ported
+to Linux 2.6.
+
+Responsible for continous maintenance of drivers and Linux system software.}
+
+  \row{2000--2002}
+      {\textbf{R\&D Engineer, RealFast Operating Systems AB, Västerås} \\
+\emph{2002: Mentor Graphics Inc. --- Development project in Linux.}
+A six month project for Mentor Graphics to port Linux to the RealFast
+H/W microkernel, similar to the VxWorks project (below). Testbench (a
+S/W simulator of the microkernel), complete system including drivers
+redesign of the scheduler etc., all developed using GNU/Linux.
+
+Debugging of the ARM Integrator platform with the Arm AxD debugger
+using a MultiICE JTAG probe.
+
+\emph{2001: Mälardalen University, Västerås.} Lecturer and examiner
+for a 5p course in C programming at the Department of Computer
+Engineering, IDt.  See the course page for details: \url{http://www.idt.mdh.se/kurser/cd5020/jnnht01/}
+
+\emph{2001: Sierra S16.} Project leader and S/W developer for the
+Sierra real-time kernel. A minimalistic OS based on the RealFast
+H/W microkernel wrapped with a S/W API to the hardware coupled with
+an adaptation of NewLib to provide a limited C library.
+
+Used today in courses given at Mälardalen University.
+
+\emph{2001: Ericsson Radio Systems AB, Nacka Strand.} Investigation
+and demostration of how Linux and RTLinux can replace Enea OSE in
+Ericsson switches based on the GPB2, General Purpose Board 2.
+
+\emph{2001: Applied Linux \& Embedded Internet Show, Kista.}
+Presented, on 5th April, Linux and other free kernels for embedded and
+real-time systems. A rundown of the embedded OS's eCos and uClinux as
+well as the real-time OS's RTLinux and RTAI. Disscussed how each
+could be applied to a certain set of problems and what to whatch out
+for when choosing a free operating system.
+
+\emph{2000: Ericsson Mobile Data Design AB, Gothenburg.} A ten month
+project with extensive modifications of VxWorks and its microkernel
+Wind to support the H/W microkernel developed by RealFast.  The latter
+is implemented in VHDL prototyped on a PMC card with an FPGA.
+
+The goal of the project was to compare the performance of VxWorks
+with and without the hardware acceleration. This was done with a
+simple IP forwarding application running in VxWorks on the Ericsson
+GIC (General Interface Carrier) board.
+
+The project included debugging of IBM PowerPC 750 using IBM RISCWatch
+with a JTAG probe.  Including debugging of PCI drivers with SingleStep
+and the Vmetro PMC bus analyzer.
+
+Tests and performance measurements made for the evaluation of the
+project was, amongst other tools, carried out with an advanced
+IP packet generator.
+
+The project also included modification and auditing of Ericsson
+developed drivers and base platform in VxWorks.
+
+\emph{2000--2002: RealFast (internal work).} Network and systems
+administration of Linux, OpenBSD and Solaris machines.
+
+Ported VxWorks to the Real-Time Unit, RTU, a real-time kernel
+implemented in VHDL. All kernel primitives in VxWorks was adapted to
+use the H/W micro kernel.}
+
+  \row{1998--1999}
+        {\textbf{Software developer, ABB Network Partner AB, Västerås} \\
+Developed a configuration compiler using Bison \& Flex.  An older DOS
+based configuration program for high--currency relay protection systems
+was to be ported to Windows.  The compiler was used to parse
+configuration files and constructed as quite an advanced compiler
+using Bison and Flex, with a lot of C glue code.
+
+The compiler was fed protocol and configuration data and then
+generated an MS~Access database over an ODBC bridge.  Everything
+developed using GNU software, Emacs and Cygwin, on Windows NT.}
+
+  \row{1996, 1997}
+      {\textbf{Summer vacation temp., service engineer for medical devices} \\
+Service and maintenance of radiology equipment at Kullbergska hospital
+in Katrineholm and Nyköpings lasarett.}
+
+  \row{1995}
+      {\textbf{Service engineer for medical devices} \\
+Worked as a service and maintenance engineer of medical equipment,
+mostly for radiology, at Kullbergska sjukhuset, Katrineholm.
+Responsible for regular maintenace and repairs of radiology equipment,
+including X--ray machines, film development machines, etc.
+Maintenance of other types of medical equipment was also part of the
+job, e.g., ventilators and electric shock devices.}
+
+%  \row{1989}
+%        {Summer holiday work in production, Hemglass AB, Strängnäs}
+%
+%  \row{1987, 1988}
+%        {Summer holiday work in production, Drinkit AB, Strängnäs}
+\end{CV}
+
+\section{References}
+\noindent The following people are familiar with both my professional
+qualifications and character:
+
+\begin{CV}
+  \row{Johan Risberg, EssNet project manager}
+      {ÅF-System AB, +46--(0)8--657~16~18}
+
+      Johan~Risberg~\url{<johan.risberg@afconsult.com>}
+
+   \row{Lennart Lindh, Ph.D.,}
+        {RealFast AB, +46--(0)70--668~95~17
+
+        Lennart~Lindh~\url{<lennart.lindh@realfast.se>}}
+
+   \row{Prof. Gerhard Fohler, Ph.D.,}
+        {MRTC\footnote{Mälardalen Real--Time Research Centre, \url{<http://www.mrtc.mdh.se/>}}, Västerås, +46--(0)21~10~31~58
+
+        Gerhard~Fohler~\url{<gerhard.fohler@mdh.se>}}
+
+   \row{Mikael Bergqvist, Ph.D.,}
+        {NetInsight AB, +46--(0)70--831~77~62
+
+        Mikael~Bergqvist~\url{<mikael.bergqvist@netinsight.com>}}
+
+   \row{Bengt Jervmo,}
+        {BlueLabs AB (formerly Frontec Tekniksystem AB), +46--(0)8--470~22~19
+
+        Bengt Jervmo \url{<bengt.jervmo@bluelabs.se>}}
+
+   \row{Mikael Wilroth,}
+	{ABB Network Partner AB, Västerås, +46--(0)21--34~20~00
+
+	Mikael~Wilroth~\url{<mikael.wilroth@se.abb.com>}}
+
+%   \row{Personnel manager,}
+%        {Hemglass Sverige AB, Strängnäs, +46--(0)152--161~00.}
+%
+%   \row{Anne--Lie Lööv,}
+%        {Drinkit AB, Strängnäs, +46--(0)152--180~90.}
+\end{CV}
+
+\newpage
+\section{Education}
+\begin{CV}
+  \row{1999--2000}
+      {Masters Degree in Real-Time Systems, Dept. of Computer
+        Engineering, University of Mälardalen, Västerås. Thesis:
+        \emph{Modular Scheduling in RTLinux}, supervisors:
+        Prof. Gerhard Fohler and Mikael Bergqvist, Frontec AB.}
+
+  \row{February 2000}
+        {Introduction to Tornado 2/VxWorks 5.4, Frontec AB.}
+
+  \row{Spring 1999}
+        {Separate courses in English, University of Mälardalen, Västerås.}
+
+  \row{1995--1998}
+        {Bachelor of Science in Computer Engineering.
+
+        University of Mälardalen, Västerås.}
+
+  \row{1994--1995}
+        {Service engineer for medical devices, civil service.}
+
+  \row{1993--1994}
+        {Fourth year college engineer, specialised in ``Industrial
+          electronics''.
+
+        Rinmansskolan, Eskilstuna.}
+
+  \row{1990--1993}
+        {Three years of technical college. Final work in \emph{Nuclear
+            Physics}.
+
+        Thomasgymnasiet, Strängnäs.}
+
+%  \row{1981--1990}
+%        {Elementary school, Vasaskolan, Strängnäs}
+%
+\end{CV}
+
+\newpage
+\section{Thesis}
+``Modular Scheduling in RTLinux''; a Master thesis work done in 2000
+with Daniel~Rytterlund \url{<daniel.rytterlund@vmlinux.org>}. The task
+was to examine existing real--time solutions for Linux, choosing the
+most suitable,  from some basic criteria, and to implement a couple of
+well known scheduling algorithms. The goal was to lay a foundation for
+a completely modular scheduler capable of scheduling all types of
+tasks; sporadics, aperiodics and periodics.
+
+The following is the abstract from the thesis.
+
+\subsection*{Abstract}
+Traditionally, the only choice a software engineer had was
+closed source commercially, or in-house, developed real-time operating
+systems. Similarly, in the academic world several experimental
+real-time operating systems have been developed.
+
+During the course of the last decade a new operating system and a new
+software development model has been gaining momentum. The Linux
+operating system has paved the road for the Open Source model of
+software development.
+
+The freely available Linux operating system, combined with the expert
+knowledge of real-time systems within academia, has recently given
+birth to several Linux based real-time operating systems, some of
+which have proven to be viable alternatives to the existing commercial
+ones.
+
+RTLinux, RTAI, KURT, and RED-Linux are the four real-time Linux based
+operating systems which have been examined. RTLinux, originating from
+the New Mexico Institute of Technology, is a hard RTOS characterised
+by a stand-alone real-time kernel running the standard Linux kernel as
+its lowest priority task. Similar in operation is RTAI, developed at
+Politecnico di Milano, which in addition employs an abstraction layer
+between the two kernels. As opposed to the two former hard real-time
+operating systems, KURT as well as RED-Linux are soft RTOSs. In the
+latter two cases the standard Linux kernel has been enhanced with
+real-time capabilities.
+
+
+Our contributions consists of an investigation of the four mentioned
+RTOSs and an implementation of a modular scheduler for RTLinux. The
+implementation is mainly concerned with the separation of the
+scheduling policy from the scheduling module in RTLinux, making it a
+separate interchangeable module. This simplifies the development of
+various scheduling algorithms in RTLinux.
+
+Included in the appendix are, not only a complete listing of our
+modifications to the source code, but also a glossary of acronyms and
+abbreviations. Moreover, we also provide an installation manual for
+RTLinux as well as a cross compiler tutorial. The installation manual
+covers topics such as retrieving necessary components, installing,
+configuring the real-time kernel and running the bundled examples. The
+cross compiler tutorial is a short description of how to build and use
+a cross development environment for an embedded system.
+
+
+\section{Civil service}
+\begin{CV}
+  \row{1994--1995}
+        {Service engineer for medical devices.
+
+        Pliktverket \url{<http://www.pliktverket.se/>}}
+\end{CV}
+
+%
+%\begin{flushright}
+%\vspace{2.5cm}
+%\noindent Västerås, \RCSDate
+%
+%
+%\vspace{1cm}
+%\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+%
+%\vspace{.3cm}
+%\noindent Joachim Nilsson
+%\end{flushright}
+\thispagestyle{rcsfooters}
+\end{document}

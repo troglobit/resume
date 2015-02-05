@@ -1,0 +1,328 @@
+\documentclass[a4paper]{article}
+\usepackage{tabularx}
+
+%\usepackage{doublespace}
+%\setstretch{1.2}
+
+\usepackage{ae}
+\usepackage{a4wide}
+\usepackage[T1]{fontenc}
+\usepackage[swedish]{babel}
+\usepackage{curriculum_vitae}
+\usepackage{hyperref}
+%\usepackage{garamon}
+
+% Collect versioning information to be used at foot ruler
+\usepackage[today]{svninfo}
+\svnInfo $Id$
+
+% http://linuxgazette.net/issue20/latex.html
+\usepackage{fancyhdr}
+\fancypagestyle{svn}{%
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\fancyhead{} % get rid of headers
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\svnInfoDate}
+\fancyfoot[C]{\svnInfoFile}
+\fancyfoot[R]{v.\svnInfoRevision}}
+
+
+\hyphenation{hand-led-are mäl-ar-dal-ens del-en schema-läg-g-nings-al-gorit-mer}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+\Huge{\textsc{Curriculum Vit\ae}}
+\vspace{\baselineskip}
+
+\Large{\textsc{Joachim Nilsson}}
+\end{center}
+\vspace{1.5\baselineskip}
+
+\section{Personinformation}
+\begin{personals}
+  \info{Namn:}
+        {Lars \underline{Joachim} Nilsson}
+  \info{Född:}
+        {23 juli 1974, Nacka, Stockholm}
+  \info{Adress:}
+        {\begin{minipage}[t]{8cm}
+        Morkullegatan~38 \\
+        724~69~VÄSTERÅS
+        \end{minipage}}
+  \info{Tel:}
+        {021--12~33~48}
+  \info{Civilstånd:}
+        {Gift, två barn}
+  \info{E-post:}
+        {\url{joachim.nilsson@vmlinux.org}}
+  \info{Webb:}
+        {\url{http://vmlinux.org/joachim/}}
+  \info{Språkkunskaper:}
+        {Engelska och svenska flytande samt viss förståelse av franska.}
+\end{personals}
+
+
+\section{Arbetslivserfarenhet}
+\begin{CV}
+  \row{2005--}
+  {\textbf{Egenföretagare, Troglobit.com, Västerås} \\
+    \emph{Företagsidé:} Applikationsutveckling och kundanpassning av en enkel
+    Linux för inbyggda system, baserat på Buildroot\footnote{Buildroot är ett
+      öppet samarbetsprojekt för att paketera ``hyllvaror'' och förenkla
+      utveckling av inbyggda Linux--system, se
+      \url{http://buildroot.uclibc.org}, utvecklat av samma personer som tagit
+      fram BusyBox och uClibc.}.
+
+    Mer information på \url{http://troglobit.com}.
+  }
+
+  \row{2002--}
+  {\textbf{Konsult inbyggda och Linux-system, ÅF-System AB, Västerås} \\
+    \emph{2005: Handledare examensarbete --- Linux--baserad SMS Gateway:}
+    En inbyggd Linux--server, byggd på ett i486--baserat PC/104--kort,
+    för att skicka SMS. Framtagen för att t.ex. kunna exportera larm
+    från ett kontrollrum till drifttagningspersonal.
+
+    \emph{2004: ABB Force Measurement --- Säkerhetsanalys av industri-- \&
+      kontorsnät:} Analys och utredning av passande brandväggslösningar för att
+    främst ansluta Stressometer--systemets övervaknings-- och ``remote
+    access''--tjänster via ett vanligt kontorsnät.
+
+    Stressometersystemet är ett tidskritiskt system för mätning av planhet vid
+    valsning av plåt.  Med höga krav på balanserad och förutsägbar nätverkslast
+    samt garanterad bandbredd för prioriterad trafik.
+
+    \emph{2002--Nutid: EssNet AB --- Utveckling av Linux--USB2--drivrutiner:}
+    Förvaltning och utveckling av ett avancerat POS\footnote{Point of Sale}
+    system för EssNet AB.  Utveckling av ett flertal kerneldrivrutiner,
+    framförallt en Cypress FX2--baserad kupong-- och kvittoläsare med funktioner
+    för scanning, ``branding'' av inlästa kvitton, kassalåda, smartkortläsare
+    och serieport för skrivare. Först framtagen för Linux 2.4 och sedan porterad
+    till Linux 2.6. Även ansvarig för övriga drivrutiners funktion och prestanda
+    i Linux--kärnan, främst USB-stacken.
+
+    Även inslag av systemadministration: drift och framtagning av ett flertal
+    Linux--servrar för ärendehantering, Mantis \& MySQL, samt ett intranät för
+    webb, Apache \& TWiki, och versionshantering, CVS \& Subversion.
+
+    EssNet säljer och driftar tips och lotterisystem till nationella spelbolag
+    över hela världen.  Kunderna finns framförallt i Ungern, Tyskland, Norge
+    och Australien.}
+
+  \row{2000--2002}
+  {\textbf{R\&D Engineer, RealFast Operating Systems AB, Västerås} \\
+    \emph{2002 --- Mentor Graphics Inc. -- Utvecklingsprojekt i Linux:}
+    Projekt på 6 månader mot Mentor Graphics i USA. Ett arbete liknande
+    VxWorks--projektet (nedan), fast för Linux. Testbänk (s/w--simulator/modell av
+    hårdvarukärnan) och komplett system, inklusive drivrutiner, omkonstruering
+    av Linux--schema-läggare, semaforhantering o.dyl., utvecklat helt under
+    GNU/Linux. Debugging av ARM Integrator m.h.a. Arm AxD debugger, med MultiICE
+    JTAG--prob från Windows.
+
+    \emph{2001 --- Mälardalens Högskola, Eskilstuna:} Föreläsare och examinator
+    för en 5p kurs i C-programmering vid Institutionen för Datateknik, IDt, i
+    Eskilstuna.
+
+    \url{http://www.idt.mdh.se/kurser/cd5020/jnnht01/}
+
+    \emph{2001 --- Internprojekt Sierra S16:} Förutom övergripande projektledare
+    för hårdvaru-- och mjuk-varu-ut-veck-ling av Sierra/RealFastOS även
+    mjukvaruutvecklare. Utvecklade företagets egna OS komplett med API mot
+    hårdvarukärnan och begränsat C--bibliotek. Används nu i fortlöpande
+    kursverksamhet vid Mälardalens Högskola.
+
+    \emph{2001 --- Ericsson Radio Systems AB, Nacka Strand:} Utredning och
+    demonstration av hur Linux och RTLinux kan ersätta OSE i växlar baserade på
+    GPB2, General Purpose Board 2.
+
+    \emph{2001 --- Applied Linux \& Embedded Internet Show i Kista:}
+    Presentation av Linux och andra fria OS för inbyggda system och
+    realtidssystem. Genomgång av inbyggnadsoperativen eCos och $\mu$Clinux samt
+    realtidsoperativen RTLinux och RTAI.
+
+    \emph{2000 --- Ericsson Mobile Data Design AB, Göteborg:} Projekt på 10
+    månader med omfattande förändringar av VxWorks och dess mikrokärna Wind för
+    att stödja RealFasts egen hårdvarubaserade kärna. Den senare är en
+    mikrokärna implementerad i VHDL och prototypad på ett PMC--kort med en
+    FPGA. Projektets mål var att jämföra VxWorks med och utan
+    hårdvaruacceleration på ett av Ericssons egna standardkort (GIC, General
+    Interface Carrier) i en enkel IP--forwarding--applikation.
+
+    Ingående moment: debugging av PowerPC 750 m.h.a. IBM RISCWatch och JTAG--prob,
+    samt debugging av PCI--drivrutiner med SingleStep och Vmetros
+    PMC--bussanalysator. Tester och prestandamätningar för utvärdering utfördes
+    bl.a. med en avancerad IP--paketgenerator.
+
+    I projektet ingick även modifiering och kodgranskning av Ericssons egna
+    drivrutiner och basprogramvara i VxWorks.
+
+    \emph{2000--2002 --- RealFast/Internt:} Nätverks-- och systemadministration
+    av Windows, Linux-- OpenBSD-- och Solaris--maskiner.}
+
+  \row{1998--1999}
+  {\textbf{Programvaruutvecklare, ABB Network Partner AB, Västerås} \\
+    Utveckling av protokollkonverterare för gamla DOS--baserade program till
+    Windows. Konverteraren byggdes som en mindre avancerad kompilator baserad på
+    Flex och Bison kompletterad med C--kod. Programmet matades med protokolldata
+    och genererade sedan en Access--databas via en ODBC--brygga. Utvecklat med
+    GNU--programvara under Windows NT.}
+
+  \row{1996, 1997}
+  {\textbf{Vikarierande medicintekniker, Landstinget Sörmland}
+    Arbetade som sommarvikarie vid medicintekniska avdelningen på Kullbergska
+    sjukhuset i Katrineholm och vid Nyköpings lasarett.}
+
+  \row{1995}
+  {\textbf{Heltidsanställd medicintekniker, Landstinget Sörmland} \\
+    Stationerad vid Kullbergska sjukhuset, Katrineholm, med främsta ansvar för
+    service och underhåll av radiologisk utrustning (röntgenapparatur,
+    framkallningsmaskiner o.dyl.). Även underhåll av annan klinisk apparatur
+    ingick, såsom defibrillatorer och ventilatorer.}
+
+ % \row{1989}
+ % {Sommarjobb i produktionen, Hemglass AB, Strängnäs.}
+
+ % \row{1987,1988}
+ % {Sommarjobb i produktionen, Drinkit AB, Strängnäs.}
+\end{CV}
+
+\section{Utbildning}
+\begin{CV}
+  \row{1999--2000}
+  {Magisterexamen i Realtidssystem, 160p. Institutionen för Datateknik,
+    Mälardalens Högskola, Västerås.
+
+    Examensarbete: \emph{Modular Scheduling in RTLinux}
+
+    Handledare: Prof. Gerhard~Fohler och Mikael~Bergqvist, Frontec AB.}
+
+  \row{Februari 2000}
+  {Grundkurs i Tornado 2/VxWorks 5.4, Frontec AB.}
+
+  \row{1999}
+  {Engelska A, 20p. Institutionen för Humaniora, Mälardalens Högskola, Västerås.}
+
+  \row{1995--1998}
+  {Ingenjörsutbildning Datateknikprogrammet, 120p
+
+    Institutionen för Datateknik, Mälardalens Högskola, Västerås.}
+
+  \row{1994--1995}
+  {Civilplikttjänstgöring, vapenfri tjänstepliktig medicintekniker.}
+
+  \row{1993--1994}
+  {Fjärde året teknisk linje. Gymnasieingenjörsexamen i Industriell Elektronik.
+
+    Rinmansskolan, Eskilstuna. }
+
+  \row{1990--1993}
+  {Treårig teknisk linje. Specialarbete: \emph{Kärnfysik}.
+
+    Thomasgymnasiet, Strängnäs.}
+
+ % \row{1981--1990}
+ % {Grundskola. Vasaskolan, Strängnäs.}
+
+\end{CV}
+
+
+\section{Examensarbete}
+''Modular Scheduling in RTLinux''; ett 20 poängs examensarbete på D-nivå med
+Daniel~Rytterlund \url{<daniel.rytterlund@vmlinux.org>}. Arbetet gick ut på att
+undersöka existerande lösningar för realtid under Linux samt välja den bäst
+lämpade, från vissa uppställda kriterier, och under denna implementera ett par
+välkända schemaläggningsalgoritmer. Med mål att att lägga grunden för en
+fullständigt modulär schemaläggare som klarar alla typer av task; sporadiska,
+aperiodiska och periodiska.
+
+Nedanstående sammanfattning är tagen ur rapporten.
+
+\subsection*{Sammanfattning}
+\noindent Under loppet av det senaste årtiondet har ett nytt operativsystem och
+tillika utvecklingsmodell fått fotfäste. ``Open-Source''--operativsystemet Linux
+har visat vägen för hur denna modell kan användas vid mjukvaruutveckling. Det
+fritt tillgängliga operativsystemet Linux kombinerat med den akademiska
+expertisen inom realtidssystem har gett upphov till flera Linux--baserade
+realtidsoperativsystem, av vilka några har visat sig vara konkurrenskraftiga
+alternativ till de kommersiella.
+
+RTLinux, RTAI, KURT och RED--Linux är de fyra realtidsoperativsystem baserade på
+Linux som har undersökts. RTLinux, från New Mexico Institute of Technology, är
+ett hårt RTOS vilket karatäriseras av en separat realtidskärna där Linux
+exekverar som den lägst prioriterade processen. RTAI, som är utvecklat vid
+Politecnico di Milano, fungerar på ett liknande sätt men har även ett
+abstraktionslager mellan de två kärnorna. Till skillnad från de två tidigare
+hårda realtidsoperativsystemen är KURT och RED--Linux att kategorisera som mjuka
+RTOS. I de två senare fallen har den ursprungliga Linux--kärnan utökats med
+realtidsegenskaper.
+
+Vårt bidrag består av en undersökning av de fyra nämda realtidsoperativsystemen
+samt en implementation av en modulär schemaläggare till RTLinux.
+Implementationen är till större delen fokuserad kring separationen av
+schemaläggningsbesluten från själva schemaläggningsmodulen. Genom att flytta
+besluten till en separat modul underlättas utvecklingen av olika typer av
+schemaläggningsalgoritmer under RTLinux.
+
+\newpage
+\section{Civiltjänstgöring}
+\begin{CV}
+  \row{1994--1995}
+        {Medicinteknikerutbildning. Vapenfri tjänstepliktig medicintekniker.
+
+        Pliktverket \url{<http://www.pliktverket.se/>}}
+\end{CV}
+
+\section{Referenser}
+\begin{CV}
+   \row{Lennart Lindh,}
+        {RealFast AB, 070--668~95~17
+
+        Lennart~Lindh~\url{<lennart.lindh@realfast.se>}}
+
+   \row{Prof. Gerhard Fohler,}
+        {MRTC\footnote{Mälardalen Real--Time Research Centre, \url{http://www.mrtc.mdh.se/}}, Västerås, 021--10~31~58.
+
+        Gerhard~Fohler~\url{<gerhard.fohler@mdh.se>}}
+
+   \row{Mikael Bergqvist,}
+        {Virtuetech AB, 070--831~77~62.
+
+        Mikael~Bergqvist~\url{<mbq@vmlinux.org>}}
+
+% Bengt är på Flir numer...
+%   \row{Bengt Jervmo,}
+%        {BlueLabs AB (f.d. Frontec Tekniksystem AB), 08--470~22~19
+%
+%       Bengt Jervmo \url{<bengt.jervmo@bluelabs.se>}}
+
+   \row{Mikael Wilroth,}
+	{ABB Network Partner AB, Västerås, 021--34~20~00 (växel).
+
+	Mikael~Wilroth~\url{<mikael.wilroth@se.abb.com>}}
+
+   \row{Lennart Hedman,}
+       {Medicinsk Teknik och Fysik, Katrineholm 0150--561~21
+
+	 Lennart Hedman \url{<lennart.hedman@ksk.dll.se>}}
+
+%   \row{Personalansvarige,}
+%        {Hemglass Sverige AB, Strängnäs, 0152--161~00.}
+%
+%   \row{Anne--Lie Lööv,}
+%        {Drinkit AB, Strängnäs, 0152--180~90.}
+\end{CV}
+
+\begin{flushright}
+\vspace{2.5cm}
+\noindent Västerås, \today
+
+
+\vspace{1cm}
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\vspace{.3cm}
+\noindent Joachim Nilsson
+\end{flushright}
+\thispagestyle{svn}
+\end{document}
