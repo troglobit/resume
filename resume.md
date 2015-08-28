@@ -3,128 +3,148 @@ Joachim Nilsson
 
 ----
 
-> UNIX developer with a burning passion for style, down to the last bit.
+> UNIX developer with a burning passion for style, down to the last bit
 
 ----
 
 Education
 ---------
 
-1999-2000
+1999—2000
 :   **MSc, Real-Time Systems, Computer Engineering**;  University
     of Mälardalen (Västerås)
 
     *Thesis title: Modular Scheduling in RTLinux*, supervisors:
     Prof. Gerhard Fohler and Mikael Bergqvist, Frontec AB
 
-1995-1999
+1995—1999
 :   **BSc, Computer Engineering**; University of Mälardalen (Västerås)
 
 
 Experience
 ----------
 
-**2005&mdash;Present: Software Architect, Westermo R&D**
+**2005—Present: Westermo R&D**
 
-Engineered and designed the WeOS network operating system, from the
-ground up.
+Software Architect for WeOS, at Westermo R&D, Västerås.
 
-**2002mdash;2005: Consultant, Linux and embedded systems ÅF**
+* Invented, engineered, and designed the WeOS network operating system
+* Introduced advanced version control using Subversion
+* Introduced collaborative issue tracking using Mantis
+* Systems administration for Linux servers
+* Project lead and scrum master
 
-Consultant, Linux and embedded systems ÅF-System AB, Vasterås
+**2002—2005: Ångpanneföreningen, ÅF**
 
-* *2004: ABB Force Measurement — Network Security Analysis.* Security
-  analysis and firewall recommendations for connecting a time critical
-  industrial network to an office network with Internet access.  The
-  Stressometer flatness measuring system is an advanced flatness system
-  for rolling mills with high demands on network load predictability and
-  quality of service.
+Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
 
-* *2002–2005: EssNet AB — Linux USB2 drivers.* Development of several
-  Linux kernel device drivers for a highly advanced lottery system.  In
-  particular a Cypress FX2 (USB 2.0) based high–speed scanner with
-  functions for scanning and calibration, branding of printed receipts,
-  cashdrawer and dedicated serial port interface. First devleoped for
-  Linux kernel 2.4 and later ported to Linux 2.6.
+2004
+:   ABB Force Measurement — Network Security Analysis
+
+    Security analysis and firewall recommendations for connecting a time
+    critical industrial network to an office network with Internet
+    access.  The Stressometer flatness measuring system is an advanced
+    flatness system for rolling mills with high demands on network load
+    predictability and quality of service.
+
+2002–2005
+:   EssNet AB — Misc Linux USB drivers
+
+    Development of several Linux kernel device drivers for a highly
+    advanced lottery system.  In particular a Cypress FX2 (USB 2.0)
+    based high–speed scanner with functions for scanning, calibration,
+    branding of printed receipts, cashdrawer and dedicated serial port
+    interface.
+
+    First devleoped for Linux kernel 2.4 and later ported to Linux 2.6.
   
-  Also responsible for continous maintenance of drivers and Linux system
-  software, at EssNet.
+    Also responsible for continous maintenance of drivers and Linux
+    system software, at EssNet.
 
-**2000-2002: R&D Engineer, RealFast Operating Systems**
+\pagebreak
+
+**2000—2002: RealFast Operating Systems**
 
 R&D Engineer, RealFast Operating Systems AB, Västerås.
 
-* *2002: Mentor Graphics Inc. — Development project in Linux.* A six
-  month project for Mentor Graphics to port Linux to the RealFast HW
-  microkernel, similar to the VxWorks project (below).  Testbench (a S/W
-  simulator of the microkernel), complete system including drivers
-  redesign of the scheduler etc., all developed using GNU/Linux.
+2002
+:   Mentor Graphics Inc. — Port Linux to HW microkernel
 
-  Debugging of the ARM Integrator platform with the Arm AxD debugger
-  using a MultiICE JTAG probe.
+    Similar to the VxWork project (below), but for the Linux kernel use
+    the RealFast HW microkernel.  Testbench (SW simulator of the
+    microkernel), complete system w/ drivers, redesign of the Linux
+    scheduler etc., developed using only GNU/Linux.
+    
+    Development was done on the ARM Integrator platform using the Arm
+    AxD debugger with a MultiICE JTAG probe.
 
-* *2001: Mälardalen University, Västerås.* Lecturer and examiner for a
-  course in C programming at the Department of Computer Engineering,
-  IDt.  For details: <http://www.idt.mdh.se/kurser/cd5020/jnnht01/>
+2001
+:   Mälardalen University, Västerås — Lecturer
 
-* *2001: Sierra S16.* Project lead and SW developer for the Sierra
-  real-time kernel.  A minimalistic OS based on the RealFast HW
-  microkernel wrapped with a SW API to the hardware coupled with an
-  adaptation of NewLib to provide a limited C library.
+    Lecturer and examiner for a course in C programming at the
+    Department of Computer Engineering, IDt.
+    <http://www.idt.mdh.se/kurser/cd5020/jnnht01/>
 
-  Used today in courses given at Mälardalen University.
+2001
+:   RealFast/Mälardalens Högskola, Västerås — Sierra S16
 
-* *2001: Ericsson Radio Systems AB, Nacka Strand.* Investigation and
-  demostration of how Linux and RTLinux can replace Enea OSE in Ericsson
-  switches based on the GPB2, General Purpose Board 2.
+    Project lead and developer for the Sierra real-time operating sytem.
+    A minimalistic OS based on the RealFast HW microkernel wrapped with
+    a small API to the hardware, coupled with an adaptation of NewLib to
+    provide a limited C library.  Used in courses given at Mälardalen
+    University, e.g. Sumo robots.
 
-* *2001: Applied Linux & Embedded Internet Show, Kista.* Presented, on
-  5th April, Linux and other free kernels for embedded and real-time
-  systems.  A rundown of the embedded OS’s eCos and uClinux as well as
-  the real-time OS’s RTLinux and RTAI.  Disscussed how each could be
-  applied to a certain set of problems and what to whatch out for when
-  choosing a free operating system.
+2001
+:   Ericsson Radio Systems AB, Nacka Strand — RTLinux Demo
 
-* *2000: Ericsson Mobile Data Design AB, Gothenburg.* A ten month
-  project with extensive modifications of VxWorks and its microkernel
-  Wind to support the HW microkernel developed by RealFast.  The latter
-  is implemented in VHDL prototyped on a PMC card with an FPGA.
+    Investigation and demostration of how Linux and RTLinux can
+	replace Enea OSE in Ericsson switches based on the GPB2, General
+	Purpose Board 2.
 
-  The goal of the project was to compare the performance of VxWorks with
-  and without the hardware acceleration.  This was done with a simple IP
-  forwarding application running in VxWorks on the Ericsson GIC (General
-  Interface Carrier) board.
+2001
+:   Applied Linux & Embedded Internet Show, 5th April, Kista — Presenter
 
-  The project included debugging of IBM PowerPC 750 using IBM RISCWatch
-  with a JTAG probe.  Including debugging of PCI drivers with SingleStep
-  and the Vmetro PMC bus analyzer.
+    Presented Linux and other free kernels for embedded and real-time
+    systems.  Overview of non-realtime eCos and uClinux, as well as the
+    real-time RTLinux and RTAI.  Elaborated on how each could be used,
+    streangth and weaknesses, and what to watch out for.
 
-  Tests and performance measurements made for the evaluation of the
-  project was, amongst other tools, carried out with an advanced IP
-  packet generator.  The project also included modification and auditing
-  of Ericsson developed drivers and base platform in VxWorks.
+2000
+:   Ericsson Mobile, Gothenburg — Port VxWorks to HW microkernel
 
-* *2000–2002: RealFast (internal work).* Network and systems
-  administration of Linux, OpenBSD and Solaris machines.
+    Extensive modifications of the VxWorks operating system internals,
+    the Wind microkernel, to support the HW microkernel developed by
+    RealFast, a VHDL kernel core prototyped on a PMC card using an FPGA.
+  
+    Performance of VxWorks packet forwarding was evaluated with and
+	without the hardware acceleration on the Ericsson GIC (General
+	Interface Carrier) board using an advanced IP packet generator.
+  
+    Also, debugging and auditing of Ericsson drivers and base platform
+    for the IBM PowerPC 750 using IBM RISCWatch, SingleStep, and Vmetro
+    PCI bus analyzer.
 
-  Ported VxWorks to the Real-Time Unit, RTU, a real-time kernel
-  implemented in VHDL.  All kernel primitives in VxWorks were adapted to
-  use the HW micro kernel.
+2000–2002
+:   RealFast — internal work
 
+    Network and systems administration of Linux, OpenBSD and Solaris
+    machines.
+
+\pagebreak
 
 Technical Experience
 --------------------
 
 Extensive knowledge of UNIX.  Both for systems administration and
-development.  Intimate knowledge of C, MAke and the GNU configure and
-build system.
+development.  Intimate knowledge of C, Make and the GNU configure and
+build system.  Intermediate knowledge of Python, Perl, and C++.
 
-Here are some of my projects at [GitHub][https://github.com/troglobit]:
+Some of my open-source projects at <https://github.com/troglobit>:
 
 finit
 :   A fast and plugin based SysV init replacement focused on embedded
     systems.  Used in the Westermo WeOS network operating system.
-    https://github.com/troglobit/finit
+    <https://github.com/troglobit/finit>
 
 uftpd
 :   Created my own FTP/TFTP server, because all others were
@@ -133,22 +153,22 @@ uftpd
     * FTP with basic anonymous support
     * TFTP with block-size negotiation
 
-    https://github.com/troglobit/uftpd
+    <https://github.com/troglobit/uftpd>
 
 watchdogd
 :   Advanced watchdog daemon for Linux.  Supports loadavg, file descriptor
     and RAM usage monitoring.  Also, advanced heartbeat monitoring API for
     processes.
 
-    https://github.com/troglobit/watchdogd
+    <https://github.com/troglobit/watchdogd>
 
 libuEv
 :   Event based library for file descriptors, timers and signals.  Used in
     `uftpd`, `finit`, and `watchdogd`, as well as some other projects.
 
-    https://github.com/troglobit/libuev
+    <https://github.com/troglobit/libuev>
 
 ----
 
-> <troglobit@gmail.com> • +46 (0)70 42 42 872 • 41 years old
-> Grottvägen 1 - 724 63 VÄSTERÅS, Sweden
+> Joachim Nilsson • 41 y/o • <mailto:troglobit@gmail.com>
+> ℡ +46(0)70 42 42 872 • Grottvägen 1 • 724 63 VÄSTERÅS • Sweden
