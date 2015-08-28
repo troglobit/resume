@@ -39,7 +39,7 @@ Software Architect for WeOS, at Westermo R&D, Västerås.
 Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
 
 2004
-:   ABB Force Measurement — Network Security Analysis
+:   *ABB Force Measurement — Network Security Analysis*
 
     Security analysis and firewall recommendations for connecting a time
     critical industrial network to an office network with Internet
@@ -48,7 +48,7 @@ Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
     predictability and quality of service.
 
 2002–2005
-:   EssNet AB — Misc Linux USB drivers
+:   *EssNet AB — Misc Linux USB drivers*
 
     Development of several Linux kernel device drivers for a highly
     advanced lottery system.  In particular a Cypress FX2 (USB 2.0)
@@ -68,7 +68,7 @@ Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
 R&D Engineer, RealFast Operating Systems AB, Västerås.
 
 2002
-:   Mentor Graphics Inc. — Port Linux to HW microkernel
+:   *Mentor Graphics Inc. — Port Linux to HW microkernel*
 
     Similar to the VxWork project (below), but for the Linux kernel use
     the RealFast HW microkernel.  Testbench (SW simulator of the
@@ -79,14 +79,14 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
     AxD debugger with a MultiICE JTAG probe.
 
 2001
-:   Mälardalen University, Västerås — Lecturer
+:   *Mälardalen University, Västerås — Lecturer*
 
     Lecturer and examiner for a course in C programming at the
     Department of Computer Engineering, IDt.
     <http://www.idt.mdh.se/kurser/cd5020/jnnht01/>
 
 2001
-:   RealFast/Mälardalens Högskola, Västerås — Sierra S16
+:   *RealFast/Mälardalens Högskola, Västerås — Sierra S16*
 
     Project lead and developer for the Sierra real-time operating sytem.
     A minimalistic OS based on the RealFast HW microkernel wrapped with
@@ -95,14 +95,14 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
     University, e.g. Sumo robots.
 
 2001
-:   Ericsson Radio Systems AB, Nacka Strand — RTLinux Demo
+:   *Ericsson Radio Systems AB, Nacka Strand — RTLinux Demo*
 
     Investigation and demostration of how Linux and RTLinux can
 	replace Enea OSE in Ericsson switches based on the GPB2, General
 	Purpose Board 2.
 
 2001
-:   Applied Linux & Embedded Internet Show, 5th April, Kista — Presenter
+:   *Applied Linux & Embedded Internet Show, 5th April, Kista — Presenter*
 
     Presented Linux and other free kernels for embedded and real-time
     systems.  Overview of non-realtime eCos and uClinux, as well as the
@@ -110,7 +110,7 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
     streangth and weaknesses, and what to watch out for.
 
 2000
-:   Ericsson Mobile, Gothenburg — Port VxWorks to HW microkernel
+:   *Ericsson Mobile, Gothenburg — Port VxWorks to HW microkernel*
 
     Extensive modifications of the VxWorks operating system internals,
     the Wind microkernel, to support the HW microkernel developed by
@@ -125,7 +125,7 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
     PCI bus analyzer.
 
 2000–2002
-:   RealFast — internal work
+:   *RealFast — internal work*
 
     Network and systems administration of Linux, OpenBSD and Solaris
     machines.
@@ -170,5 +170,5 @@ libuEv
 
 ----
 
-> Joachim Nilsson • 41 y/o • <mailto:troglobit@gmail.com>
+> Joachim Nilsson • 41 y/o • <mailto:troglobit@gmail.com>  
 > ℡ +46(0)70 42 42 872 • Grottvägen 1 • 724 63 VÄSTERÅS • Sweden
