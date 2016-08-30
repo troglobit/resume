@@ -29,7 +29,7 @@ Experience
 Software Architect for WeOS, at Westermo R&D, Västerås.
 
 * Invented, engineered, and designed the WeOS network operating system
-* Introduced advanced version control using Subversion
+* Introduced advanced version control using Subversion (now GIT is used)
 * Introduced collaborative issue tracking using Mantis
 * Systems administration for Linux servers
 * Project lead and scrum master
@@ -136,22 +136,21 @@ Technical Experience
 --------------------
 
 Extensive knowledge of UNIX.  Both for systems administration and
-development.  Intimate knowledge of C, Make and the GNU configure and
-build system.  Intermediate knowledge of Python, Perl, and C++.
+development.  Intimate knowledge of C, Make and the GNU configure &
+build system.  Intermediate knowledge of Python, Perl, Lua, and C++.
 
 Some of my open-source projects at <https://github.com/troglobit>:
 
 finit
-:   A fast and plugin based SysV init replacement focused on embedded
+:   A fast plugin based SysV init replacement focused on embedded
     systems.  Used in the Westermo WeOS network operating system.
     <https://github.com/troglobit/finit>
 
 uftpd
-:   Created my own FTP/TFTP server, because all others were
-    completely useless.
+:   Simple FTP/TFTP server, because all others were too complex.
 
     * FTP with basic anonymous support
-    * TFTP with block-size negotiation
+    * TFTP with block-size negotiation for increased xfer speed
 
     <https://github.com/troglobit/uftpd>
 
@@ -168,7 +167,22 @@ libuEv
 
     <https://github.com/troglobit/libuev>
 
+inadyn
+:   Dynamic DNS client.
+
+    <https://github.com/troglobit/inadyn>
+
+mg
+:   Micro Emacs clone, useful simple editor for embedded systems.
+
+    <https://github.com/troglobit/mg>
+
+tetris
+:   Micro Tetris clone, neat ASCII/VT100/ANSI easter egg game.
+
+    <https://github.com/troglobit/tetris>
+
 ----
 
-> Joachim Nilsson • 41 y/o • <mailto:troglobit@gmail.com>  
+> Joachim Nilsson • 42 y/o • <mailto:troglobit@gmail.com>  
 > ℡ +46(0)70 42 42 872 • Grottvägen 1 • 724 63 VÄSTERÅS • Sweden
