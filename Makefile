@@ -8,7 +8,7 @@ pdf: resume.md
 	context resume.tex
 
 html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
+	pandoc --standalone --ascii -H style_chmduquesne.css \
         --from markdown --to html \
         -o resume.html resume.md
 
