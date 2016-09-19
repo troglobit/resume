@@ -15,7 +15,7 @@ Education
     of Mälardalen (Västerås)
 
     *Thesis title: Modular Scheduling in RTLinux*, supervisors:
-    Prof. Gerhard Fohler and Mikael Bergqvist, Frontec AB
+    Prof. Gerhard Fohler, MdH, and Mikael Bergqvist, Frontec AB
 
 1995—1999
 :   **BSc, Computer Engineering**; University of Mälardalen (Västerås)
@@ -28,7 +28,8 @@ Experience
 
 Software Architect for WeOS, at Westermo R&D, Västerås.
 
-* Invented, engineered, and designed the WeOS network operating system
+* Invented, engineered, and designed the WeOS network operating system,
+  which is an in-house embedded Linux distribution with CLI, WebUI, SNMP
 * Introduced advanced version control using Subversion (now GIT is used)
 * Introduced collaborative issue tracking using Mantis
 * Systems administration for Linux servers
