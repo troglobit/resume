@@ -3,7 +3,7 @@ Joachim Nilsson
 
 ----
 
-> UNIX developer with a burning passion for style, down to the last bit
+> UNIX developer with a burning passion for style and simplicity, down to the last bit
 
 ----
 
@@ -140,15 +140,16 @@ Extensive knowledge of UNIX.  Both for systems administration and
 development.  Intimate knowledge of C, Make and the GNU configure &
 build system.  Intermediate knowledge of Python, Perl, Lua, and C++.
 
-Some of my open-source projects at <https://github.com/troglobit>:
+Open Source projects maintained at <https://github.com/troglobit>:
 
 finit
-:   A fast plugin based SysV init replacement focused on embedded
-    systems.  Used in the Westermo WeOS network operating system.
-    <https://github.com/troglobit/finit>
+:   A fast init with process supervision, plugin system, and conditions.
+    Focused on small and embedded systems, yet fully usable on server
+    and desktop installations.  Used in Westermo WeOS, a network
+    operating system.  <https://github.com/troglobit/finit>
 
 uftpd
-:   Simple FTP/TFTP server, because all others were too complex.
+:   Simple FTP/TFTP server
 
     * FTP with basic anonymous support
     * TFTP with block-size negotiation for increased xfer speed
@@ -158,20 +159,31 @@ uftpd
 watchdogd
 :   Advanced watchdog daemon for Linux.  Supports loadavg, file descriptor
     and RAM usage monitoring.  Also, advanced heartbeat monitoring API for
-    processes.
+    process instrumentation and supervision.
 
     <https://github.com/troglobit/watchdogd>
 
 libuEv
-:   Event based library for file descriptors, timers and signals.  Used in
-    `uftpd`, `finit`, and `watchdogd`, as well as some other projects.
+:   Simple event based library for file descriptors, timers and signals.
+    Used in `uftpd`, `finit`, and `watchdogd`, as well as some other
+    projects.
 
     <https://github.com/troglobit/libuev>
 
 inadyn
-:   Dynamic DNS client.
+:   Internet automated dynamic DNS client.
 
     <https://github.com/troglobit/inadyn>
+
+SMCRoute
+:   A static multicast routing daemon.
+
+    <https://github.com/troglobit/smcroute>
+
+mcjoin
+:   Tiny multicast testing tool, generator and sink
+
+    <https://github.com/troglobit/mcjoin>
 
 mg
 :   Micro Emacs clone, useful simple editor for embedded systems.
