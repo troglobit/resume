@@ -71,10 +71,10 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
 2002
 :   *Mentor Graphics Inc. — Port Linux to HW microkernel*
 
-    Similar to the VxWork project (below), but for the Linux kernel use
-    the RealFast HW microkernel.  Testbench (SW simulator of the
-    microkernel), complete system w/ drivers, redesign of the Linux
-    scheduler etc., developed using only GNU/Linux.
+    Similar to the VxWork project, but for the Linux kernel using the
+    RealFast HW microkernel.  Testbench (SW simulator of microkernel),
+    complete system w/ drivers, redesign of the Linux scheduler etc.,
+    fully developed in a GNU/Linux environment.
     
     Development was done on the ARM Integrator platform using the Arm
     AxD debugger with a MultiICE JTAG probe.
@@ -91,16 +91,16 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
 
     Project lead and developer for the Sierra real-time operating sytem.
     A minimalistic OS based on the RealFast HW microkernel wrapped with
-    a small API to the hardware, coupled with an adaptation of NewLib to
-    provide a limited C library.  Used in courses given at Mälardalen
-    University, e.g. Sumo robots.
+    a small API to the hardware, coupled with GCC and an adaptation of
+    NewLib to provide a limited C library.  Used in courses given at
+    Mälardalen University, e.g. Sumo robots.
 
 2001
 :   *Ericsson Radio Systems AB, Nacka Strand — RTLinux Demo*
 
-    Investigation and demostration of how Linux and RTLinux can
-	replace Enea OSE in Ericsson switches based on the GPB2, General
-	Purpose Board 2.
+    Investigation and demonstration of how Linux, and RTLinux in
+	particular, RTLinux can replace Enea OSE in Ericsson telephone
+	switches based on the GPB2, General Purpose Board 2.
 
 2001
 :   *Applied Linux & Embedded Internet Show, 5th April, Kista — Presenter*
@@ -140,7 +140,7 @@ Extensive knowledge of UNIX.  Both for systems administration and
 development.  Intimate knowledge of C, Make and the GNU configure &
 build system.  Intermediate knowledge of Python, Perl, Lua, and C++.
 
-Open Source projects maintained at <https://github.com/troglobit>:
+Some Open Source projects maintained at <https://github.com/troglobit>:
 
 finit
 :   A fast init with process supervision, plugin system, and conditions.
