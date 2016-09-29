@@ -146,7 +146,9 @@ finit
 :   A fast init with process supervision, plugin system, and conditions.
     Focused on small and embedded systems, yet fully usable on server
     and desktop installations.  Used in Westermo WeOS, a network
-    operating system.  <https://github.com/troglobit/finit>
+    operating system.
+    
+    <https://github.com/troglobit/finit>
 
 uftpd
 :   Simple FTP/TFTP server
