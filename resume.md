@@ -3,7 +3,7 @@ Joachim Nilsson
 
 ----
 
-> UNIX developer with a burning passion for style and simplicity, down to the last bit
+> UNIX developer with a passion for style and simplicity, down to the last bit
 
 ----
 
