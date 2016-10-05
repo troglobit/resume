@@ -34,7 +34,8 @@ Software Architect for WeOS, at Westermo R&D, Västerås.
 * Introduced collaborative issue tracking using Mantis
 * Systems administration for Linux servers
 * Project lead and scrum master
-* Senior developer
+* Subsystem maintainer for: OSPF, RIP, DHCP (server/relay/client), IGMP
+  snooping, static IP multicast/unicast routing, and more.
 
 **2002—2005: Ångpanneföreningen, ÅF**
 
