@@ -28,12 +28,13 @@ Experience
 
 Software Architect for WeOS, at Westermo R&D, Västerås.
 
-* Invented, engineered, and designed the WeOS network operating system,
-  which is an in-house embedded Linux distribution with CLI, WebUI, SNMP
+* Invented, engineered, named, and designed the WeOS network operating
+  system.  An in-house embedded Linux distribution with CLI, WebUI, SNMP
 * Introduced advanced version control using Subversion (now GIT is used)
 * Introduced collaborative issue tracking using Mantis
 * Systems administration for Linux servers
 * Project lead and scrum master
+* Senior developer
 
 **2002—2005: Ångpanneföreningen, ÅF**
 
@@ -129,7 +130,8 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
 :   *RealFast — internal work*
 
     Network and systems administration of Linux, OpenBSD and Solaris
-    machines.
+    machines: maintenance, version control systems, file servers,
+    backup, etc.
 
 \pagebreak
 
