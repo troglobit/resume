@@ -30,6 +30,8 @@ Software Architect for WeOS, at Westermo R&D, Västerås.
 
 * Invented, engineered, named, and designed the WeOS network operating
   system.  An in-house embedded Linux distribution with CLI, WebUI, SNMP
+* Wrote an IGMP v2/v3 snooping daemon for Marvell SOHO switch cores
+* Designed a redundant Layer-2 ring-bridging fail-over protocol
 * Introduced advanced version control using Subversion (now GIT is used)
 * Introduced collaborative issue tracking using Mantis
 * Systems administration for Linux servers
@@ -51,7 +53,7 @@ Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
     predictability and quality of service.
 
 2002–2005
-:   *EssNet AB — Misc Linux USB drivers*
+:   *EssNet AB — Linux USB drivers*
 
     Development of several Linux kernel device drivers for a highly
     advanced lottery system.  In particular a Cypress FX2 (USB 2.0)
