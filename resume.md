@@ -112,7 +112,7 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
     Presented Linux and other free kernels for embedded and real-time
     systems.  Overview of non-realtime eCos and uClinux, as well as the
     real-time RTLinux and RTAI.  Elaborated on how each could be used,
-    streangth and weaknesses, and what to watch out for.
+    strengths and weaknesses, and what to watch out for.
 
 2000
 :   *Ericsson Mobile, Gothenburg — Port VxWorks to HW microkernel*
