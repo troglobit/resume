@@ -1,3 +1,5 @@
+# apt install pandoc context
+
 all: html pdf docx rtf
 
 pdf: resume.md
