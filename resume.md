@@ -141,9 +141,9 @@ R&D Engineer, RealFast Operating Systems AB, Västerås.
 Technical Experience
 --------------------
 
-Extensive knowledge of UNIX.  Both for systems administration and
-development.  Intimate knowledge of C, Make and the GNU configure &
-build system.  Intermediate knowledge of Python, Perl, Lua, and C++.
+Extensive knowledge of UNIX, systems administration and development.
+Intimate knowledge of C, Make and the GNU configure & build system.
+Intermediate knowledge of Python, Perl, Lua, and C++.
 
 Some Open Source projects maintained at <https://github.com/troglobit>:
 
@@ -204,5 +204,5 @@ tetris
 
 ----
 
-> Joachim Nilsson • 42 y/o • <mailto:troglobit@gmail.com>  
+> Joachim Nilsson • 43 y/o • <mailto:troglobit@gmail.com>  
 > ℡ +46(0)70 42 42 872 • Grottvägen 1 • 724 63 VÄSTERÅS • Sweden
