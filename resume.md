@@ -36,8 +36,8 @@ Software Architect for WeOS, at Westermo R&D, Västerås.
 * Introduced collaborative issue tracking using Mantis
 * Systems administration for Linux servers
 * Project lead and scrum master
-* Subsystem maintainer for: OSPF, RIP, DHCP (server/relay/client), IGMP
-  snooping, static IP multicast/unicast routing, and more.
+* Subsystem maintainer of OSPF, RIP, DHCP (server/relay/client), IGMP
+  snooping, multicast and unicast routing, and more in WeOS.
 
 **2002—2005: Ångpanneföreningen, ÅF**
 
@@ -46,11 +46,10 @@ Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
 2004
 :   *ABB Force Measurement — Network Security Analysis*
 
-    Security analysis and firewall recommendations for connecting a time
-    critical industrial network to an office network with Internet
-    access.  The Stressometer flatness measuring system is an advanced
-    flatness system for rolling mills with high demands on network load
-    predictability and quality of service.
+    Security analysis and firewall recommendations for connecting an
+	office network, with Internet access, to a time critical industrial
+	network with high demands on network load predictability and quality
+	of service.
 
 2002–2005
 :   *EssNet AB — Linux USB drivers*
@@ -64,7 +63,7 @@ Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
     First devleoped for Linux kernel 2.4 and later ported to Linux 2.6.
   
     Also responsible for continous maintenance of drivers and Linux
-    system software, at EssNet.
+    system software.
 
 \pagebreak
 
