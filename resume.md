@@ -203,5 +203,5 @@ tetris
 
 ----
 
-> Joachim Nilsson • 43 y/o • <mailto:troglobit@gmail.com>  
-> ℡ +46(0)70 42 42 872 • Grottvägen 1 • 724 63 VÄSTERÅS • Sweden
+> Joachim Nilsson • 44 y/o • <mailto:troglobit@gmail.com>  
+> ℡ +46(0)70 42 42 872 • Östergatan 41 • 735 33 SURAHAMMAR • Sweden
