@@ -1,5 +1,5 @@
-Joachim Nilsson
-===============
+Joachim Wiberg, née Nilsson
+===========================
 
 ----
 
@@ -203,5 +203,5 @@ tetris
 
 ----
 
-> Joachim Nilsson • 44 y/o • <mailto:troglobit@gmail.com>  
+> Joachim Wiberg • 46 y/o • <mailto:troglobit@gmail.com>  
 > ℡ +46(0)70 42 42 872 • Östergatan 41 • 735 33 SURAHAMMAR • Sweden
