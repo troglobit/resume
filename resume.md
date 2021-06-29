@@ -60,7 +60,7 @@ Consultant, Linux and embedded systems, at ÅF-System AB, Västerås
     branding of printed receipts, cashdrawer and dedicated serial port
     interface.
 
-    First devleoped for Linux kernel 2.4 and later ported to Linux 2.6.
+    First developed for Linux kernel 2.4 and later ported to Linux 2.6.
   
     Also responsible for continous maintenance of drivers and Linux
     system software.
