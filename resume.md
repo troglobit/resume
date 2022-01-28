@@ -24,9 +24,15 @@ Education
 Experience
 ----------
 
-**2005—Present: Westermo R&D**
+**2022-Present: Addiva Elektronik AB**
 
-Software Architect for WeOS, at Westermo R&D, Västerås.
+Software Architect and embedded systems consultant.
+
+
+**2005—2022: Westermo R&D**
+
+Software Architect for WeOS, later System Archictect, Westermo Network
+Technologies AB, at Research & Development in Västerås, Sweden.
 
 * Invented, engineered, named, and designed the WeOS network operating
   system.  An in-house embedded Linux distribution with CLI, WebUI, SNMP
@@ -38,6 +44,7 @@ Software Architect for WeOS, at Westermo R&D, Västerås.
 * Project lead and scrum master
 * Subsystem maintainer of OSPF, RIP, DHCP (server/relay/client), IGMP
   snooping, multicast and unicast routing, and more in WeOS.
+* Free/Open Source process responsible
 
 **2002—2005: Ångpanneföreningen, ÅF**
 
