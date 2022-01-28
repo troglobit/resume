@@ -24,7 +24,7 @@ Education
 Experience
 ----------
 
-**2022-Present: Addiva Elektronik AB**
+**2022—Present: Addiva Elektronik AB**
 
 Software Architect and embedded systems consultant.
 
