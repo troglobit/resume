@@ -1,6 +1,6 @@
 # apt install pandoc context
 
-all: html pdf docx rtf
+all: html pdf
 
 pdf: resume.md
 	pandoc --standalone --template style_chmduquesne.tex \
@@ -15,10 +15,10 @@ html: style_chmduquesne.css resume.md
         -o resume.html resume.md
 
 docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
+	pandoc -s -f markdown+smart -t markdown-smart resume.md -o resume.docx
 
 rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+	pandoc -s -f markdown+smart -t markdown-smart resume.md -o resume.rtf
 
 clean:
 	rm resume.html
