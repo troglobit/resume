@@ -12,13 +12,13 @@ Education
 
 1999—2000
 :   **MSc, Real-Time Systems, Computer Engineering**;  University
-    of Mälardalen (Västerås)
+    of Mälardalen, MdU (Västerås)
 
     *Thesis title: Modular Scheduling in RTLinux*, supervisors:
-    Prof. Gerhard Fohler, MdH, and Mikael Bergqvist, Frontec AB
+    Prof. Gerhard Fohler, MdU, and Mikael Bergqvist, Frontec AB
 
 1995—1999
-:   **BSc, Computer Engineering**; University of Mälardalen (Västerås)
+:   **BSc, Computer Engineering**; University of Mälardalen, MdU (Västerås)
 
 
 Experience
@@ -28,6 +28,14 @@ Experience
 
 Software Architect and embedded systems consultant.
 
+* In-house project for an embedded controller (nRF5340) writing a
+  firmware based on the Zephyr embedded real-time OS.  Including porting
+  libmbus (a meter-bus implementation) to Zephyr.
+* Consultant at Transrail AB, writing a CIP adapter based on the OpENer
+  stack.  Including developing two CIP scanners for automated tests
+* Consultant at Westermo R&D.  Linux kernel upgrade work, including
+  adapting and writing new drivers, as well as submitting patches to the
+  Linux networking subystem.
 
 **2005—2022: Westermo R&D**
 
